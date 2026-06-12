@@ -139,8 +139,8 @@ const Portfolio = () => {
       technologies: ['Symfony 7.4', 'API Platform 4', 'Recombee ML', 'Docker', 'JWT / RSA', 'FrankenPHP', 'MySQL', 'Scrum/Jira'],
       github: 'https://github.com/yvsslne48',
       images: [
-        'images/skillup-admin.png',
         'images/skillup-register.png',
+        'images/skillup-admin.png',
         'images/skillup-teacher.png',
         'images/skillup-student.png'
       ],

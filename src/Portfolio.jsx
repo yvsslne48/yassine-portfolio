@@ -137,7 +137,8 @@ const Portfolio = () => {
         'FrankenPHP + MySQL backend'
       ],
       technologies: ['Symfony 7.4', 'API Platform 4', 'Recombee ML', 'Docker', 'JWT / RSA', 'FrankenPHP', 'MySQL', 'Scrum/Jira'],
-      github: 'https://github.com/yvsslne48',
+      live: 'https://skill-up-f.vercel.app',
+      github: null,
       images: [
         'images/skillup-register.png',
         'images/skillup-admin.png',

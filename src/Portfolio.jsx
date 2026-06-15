@@ -99,6 +99,38 @@ const Portfolio = () => {
       ]
     },
     {
+  title: 'LearnWithLoutchee',
+  subtitle: 'Exam Revision Platform',
+  type: 'Personal Project (2025–2026)  — In Progress',
+  description: 'LearnWithLoutchee is an interactive revision platform built to help me and my classmates at EHEI Oujda prepare for the Symfony and Spring Boot exams (GI4 2025-2026). It turns the actual course content and past exams into structured lessons, quizzes, flashcards and practice exams. The project is actively evolving, with more modules (e.g. .NET) planned.',
+  features: [
+    '11 modules across Symfony and Spring Boot, each with lessons, quizzes and exams',
+    'Multiple exam modes: QCM, PDF-style, real past exam questions, module-targeted practice',
+    '40 interactive flashcards with shuffle and "know it / review" tracking',
+    'Custom syntax-highlighting tokenizer written in pure JS (no Prism dependency)',
+    'Progress, scores and theme persistence via Zustand',
+    'Side-by-side PDF upload viewer for exam practice',
+    'Designed to be easily extended with new courses (e.g. .NET planned next)'
+  ],
+  technologies: ['React', 'Vite', 'React Router', 'Zustand', 'Framer Motion', 'Tailwind CSS', 'Lucide React'],
+  live: 'https://brain-lift.vercel.app/',
+  github: 'null',
+  images: [
+      'images/HomePage.png',
+      'images/learnhub-2.png',
+      'images/learnhub-3.png',
+      'images/ExamPart.png',
+      'images/Flashcards.png'
+    ],
+  imageLabels: [
+    'Home Page',
+    'Symfony Lessons Interface',
+    'Spring Lessons Interface',
+    'Exam Practice Interface',
+    'Flashcards Interface'
+  ]
+},
+    {
       title: 'Elite Birds Store',
       subtitle: 'Bird Management Website',
       type: 'Personal Project',

@@ -101,7 +101,7 @@ const Portfolio = () => {
     {
   title: 'LearnWithLoutchee',
   subtitle: 'Exam Revision Platform',
-  type: 'Personal Project (2025–2026)  — In Progress',
+  type: 'Personal Project — In Progress',
   description: 'LearnWithLoutchee is an interactive revision platform built to help me and my classmates at EHEI Oujda prepare for the Symfony and Spring Boot exams (GI4 2025-2026). It turns the actual course content and past exams into structured lessons, quizzes, flashcards and practice exams. The project is actively evolving, with more modules (e.g. .NET) planned.',
   features: [
     '11 modules across Symfony and Spring Boot, each with lessons, quizzes and exams',
@@ -178,8 +178,9 @@ const Portfolio = () => {
         'images/skillup-student.png'
       ],
       imageLabels: [
-        'Admin Dashboard',
+        
         'Authentication Interface',
+        'Admin Dashboard',
         'Teacher Workspace',
         'Student Dashboard'
       ]

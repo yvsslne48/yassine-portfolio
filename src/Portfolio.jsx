@@ -26,10 +26,10 @@ const Portfolio = () => {
 
   const skills = {
     frontend: [
-      { name: 'HTML', levelText: 'Advanced', levelValue: 90 },
-      { name: 'CSS', levelText: 'Advanced', levelValue: 85 },
+      { name: 'HTML', levelText: 'Intermediate', levelValue: 90 },
+      { name: 'CSS', levelText: 'Intermediate', levelValue: 85 },
       { name: 'JavaScript', levelText: 'Intermediate', levelValue: 70 },
-      { name: 'React', levelText: 'Intermediate', levelValue: 50 },
+      // { name: 'React', levelText: 'Intermediate', levelValue: 50 },
       { name: 'Tailwind CSS', levelText: 'Intermediate', levelValue: 70 },
       { name: 'Bootstrap', levelText: 'Intermediate', levelValue: 70 },
       { name: 'Angular', levelText: 'Beginner', levelValue: 40 }
@@ -39,11 +39,11 @@ const Portfolio = () => {
       { name: 'C# (.NET)', levelText: 'Intermediate', levelValue: 75 }
     ],
     databases: [
-      { name: 'MySQL', levelText: 'Advanced', levelValue: 85 },
+      { name: 'MySQL', levelText: 'Intermediate', levelValue: 85 },
       { name: 'PostgreSQL', levelText: 'Beginner', levelValue: 60 }
     ],
     tools: [
-      { name: 'Git/GitHub', levelText: 'Advanced', levelValue: 90 },
+      { name: 'Git/GitHub', levelText: 'Intermediate', levelValue: 90 },
       { name: 'Docker', levelText: 'Intermediate', levelValue: 75 },
       { name: 'Linux', levelText: 'Intermediate', levelValue: 70 },
       { name: 'Jira', levelText: 'Intermediate', levelValue: 80 }

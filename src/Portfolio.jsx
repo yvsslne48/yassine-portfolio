@@ -102,15 +102,15 @@ const Portfolio = () => {
   title: 'LearnWithLoutchee',
   subtitle: 'Exam Revision Platform',
   type: 'Personal Project — In Progress',
-  description: 'LearnWithLoutchee is an interactive revision platform built to help me and my classmates at EHEI Oujda prepare for the Symfony and Spring Boot exams (GI4 2025-2026). It turns the actual course content and past exams into structured lessons, quizzes, flashcards and practice exams. The project is actively evolving, with more modules (e.g. .NET) planned.',
+  description: 'LearnWithLoutchee is an interactive exam revision platform built for GI4 students at EHEI Oujda (2025–2026). It transforms real course content and past exams into structured lessons, quizzes, flashcards and practice exams — covering Symfony, Spring Boot, .NET/ASP.NET Core and Artificial Intelligence (Machine Learning).\n\nBuilt using vibe coding — an AI-assisted development approach where the architecture, features and logic were entirely designed and directed by me, with Claude (Anthropic) generating the code.',
   features: [
-    '11 modules across Symfony and Spring Boot, each with lessons, quizzes and exams',
-    'Multiple exam modes: QCM, PDF-style, real past exam questions, module-targeted practice',
-    '40 interactive flashcards with shuffle and "know it / review" tracking',
+    '4 courses — 26+ modules with lessons, code examples, quizzes and exams',
+    'Multiple exam modes: QCM (auto-corrected), real past exam questions, and PDF viewer for official subjects',
+    '226 interactive flashcards organized by module with shuffle and "know it / review" tracking',
+    'AI module covering KNN, SVM, K-Means, DBSCAN and Logistic Regression (Prof. Mouhib Imad)',
+    '.NET module with S1/S2 semester layout, A4 fiche PDF viewer and UML real exam image',
     'Custom syntax-highlighting tokenizer written in pure JS (no Prism dependency)',
-    'Progress, scores and theme persistence via Zustand',
-    'Side-by-side PDF upload viewer for exam practice',
-    'Designed to be easily extended with new courses (e.g. .NET planned next)'
+    'Progress, scores and theme persistence via Zustand'
   ],
   technologies: ['React', 'Vite', 'React Router', 'Zustand', 'Framer Motion', 'Tailwind CSS', 'Lucide React'],
   live: 'https://brain-lift.vercel.app/',
@@ -119,14 +119,14 @@ const Portfolio = () => {
       'images/HomePage.png',
       'images/learnhub-2.png',
       'images/learnhub-3.png',
-      'images/ExamPart.png',
+      // 'images/ExamPart.png',
       'images/Flashcards.png'
     ],
   imageLabels: [
     'Home Page',
-    'Symfony Lessons Interface',
-    'Spring Lessons Interface',
-    'Exam Practice Interface',
+    'All Modules Interface',
+    'Symfony Exam ',
+    // 'Exam Practice Interface',
     'Flashcards Interface'
   ]
 },
